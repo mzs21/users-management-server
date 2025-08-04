@@ -1,6 +1,6 @@
 # 1st
 ```
-npm i express cors
+npm i express cors ts-node
 ```
 # 2nd
 
@@ -11,17 +11,11 @@ npm i --save-dev @types/node @types/express
 for Node and Express Types
 
 # 3rd
-
-```
-npm i ts-node
-```
-
-# 4th
 ```
 npx tsc --init
 ```
 
-# 5th 
+# 4th
 ✅ Solution
 🔧 Fix the ERR_UNKNOWN_FILE_EXTENSION ".ts" error by telling ts-node how to handle .ts files properly.
 ## Option 1: Force ts-node to use CommonJS
